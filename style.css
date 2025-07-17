@@ -157,3 +157,34 @@ footer {
   font-weight: normal;
   color: #ffde7d;
 }
+.certifications {
+  padding: 2rem;
+  background: #110ed6;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+.certifications h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.cert-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  background: #2e0e4d;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.cert-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+.cert-card h3 {
+  margin: 0 0 0.5rem;
+}
+.cert-card p {
+  margin: 0.25rem 0;
+}
